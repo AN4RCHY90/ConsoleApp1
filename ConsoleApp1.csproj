@@ -9,6 +9,13 @@
 
     <ItemGroup>
       <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+      <PackageReference Include="xunit.assert" Version="2.4.2" />
+      <PackageReference Include="xunit.extensibility.core" Version="2.4.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="ConsoleApp1.Test\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
+      <Compile Remove="ConsoleApp1.Test\obj\Debug\net8.0\ConsoleApp1.Test.AssemblyInfo.cs" />
     </ItemGroup>
 
 </Project>
