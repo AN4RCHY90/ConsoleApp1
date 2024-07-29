@@ -56,16 +56,19 @@ Saving Changes: The updated version number is saved back to the JSON file, prese
 JSON File Structure
 The JSON file should contain a "Version" key as follows:
 
-{
-    "Version": "1.2.3",
-    "OtherData": {
-        "Example": "Data"
+
+    {
+        "Version": "1.2.3",
+        "OtherData": {
+            "Example": "Data"
+        }
     }
-}
 
 ## Important Notes
 
-**Default Path:** If you do not specify a file path, the application uses a default path (default/path/to/json/file.json). Ensure this path exists and is accessible, or specify your own path when prompted.
+**Default Path:** If you do not specify a file path, the application uses a default path C:\Rider\ConsoleApp1\ProjectDetails.json.
+
+Ensure this path exists and is accessible, or specify your own path when prompted.
 
 **Permissions:** Ensure the application has permission to read and write to the specified JSON file.
 
